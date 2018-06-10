@@ -1,4 +1,4 @@
-const connection = require('../db_connection');
+const connection = require('../db_connect');
 
 exports.selectAllUsers = (email, cb) => {
   const sql = {

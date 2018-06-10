@@ -1,4 +1,4 @@
-const connection = require('../db_connection');
+const connection = require('../db_connect');
 
 exports.insertUser = (name, email, password, cb) => {
   const sql = {
