@@ -1,4 +1,4 @@
-const dbcon = require('./db_connection.js');
+const dbcon = require('./db_connect.js');
 const fs = require('fs');
 
 const sql = fs.readFileSync(`${__dirname}/db_build.sql`).toString();
